@@ -1,5 +1,9 @@
 .cover__overlay {
   display: block;
+  background: url(../../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
   text-decoration: none;
   margin: 0;
   padding: 245px 0;
@@ -20,7 +24,6 @@
 .cover__overlay:hover::before {
   opacity: 0.8;
 }
-
 
 @media screen and (max-width: 1279px) {
   .cover__overlay {
